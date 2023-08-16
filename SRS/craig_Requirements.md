@@ -21,7 +21,7 @@
 
 ### Use-case diagram
 
-![[use_case_craig.png]]
+![use_case_craig.png](SRS/use_case_craig.png)
 
 
 ### Class Diagram
