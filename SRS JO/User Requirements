@@ -1,0 +1,34 @@
+3.	User Requirements Definition
+
+3.1	User Authentication
+User should be able to provide their identity to gain access to the application
+
+3.1.1	The system shall enforce password policy and verify the identity of users attempting to log in.
+3.1.2	The system should provide password lockout and recovery mechanisms.
+
+3.2	User Authorization
+The user should be able to access controls and functionality according to their assigned role and permissions.
+
+3.2.1	After authentication, the system shall determine the appropriate level of access a user has based on their role.
+3.2.2	The system shall make controls, forms, and data available according to the user’s permissions.
+3.2.3	The system should allow administrators to update permissions without modifying the code.
+
+3.3	Create and update a client. 
+Users should have access to a form or interface where they can create or edit client details, such as name, contact information, billing information, enable or disable the client, and other relevant data. 
+
+3.3.1	The system shall enable authorized users to access a form to create new client accounts or edit existing client details.
+3.3.2	The system shall generate and assign a unique client ID to each new client.
+3.3.3	The system shall perform data validation checks to ensure that entered client information is accurate, consistent, and complete.
+3.3.4	The system should reformat client information to accommodate for uniformity of data.
+3.3.5	The system should provide user with confirmation option if a possible user duplicity is entered.
+
+3.4	Create and update an item.
+Authorized users should be able to define and enter item details such as name, description, SKU (Stock Keeping Unit), category, and other relevant attributes, assign items to an existing client, and update existing item details.
+
+3.4.1	The system shall enable authorized users to access a form to create new items or edit existing items.
+3.4.2	The system shall generate and assign a unique client ID to each new item.
+3.4.3	The system shall validate that item is associated to an existing client.
+3.4.4	The system shall perform data validation checks to ensure that entered item information is accurate, consistent, and complete.
+3.4.5	The system should reformat client information to accommodate for uniformity of data.
+3.4.6	The system should prevent the user from creating the same item multiple times.
+3.4.7	The system should allow bulk item creation through data import.
